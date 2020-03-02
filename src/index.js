@@ -4,7 +4,10 @@ function eval() {
 }
 
 function expressionCalculator(expr) {
-    // write your solution here
+    const arr = expr.split(' ');
+    const filteredArr = arr.filter((el => el !== ''));
+
+    return 0;
 }
 
 module.exports = {
